@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,10 @@ namespace ConsoleHzk
 {
     public class Apple : IProduct
     {
+        public Apple()
+        {
+
+        }
         public void FruitsSay()
         {
             Console.WriteLine("I am a apple");

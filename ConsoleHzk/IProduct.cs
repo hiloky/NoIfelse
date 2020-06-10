@@ -4,6 +4,9 @@ using System.Text;
 
 namespace ConsoleHzk
 {
+    /// <summary>
+    /// 实现该接口必须要有空的构造函数，因为反射的Invoke方法第一个参数的要求
+    /// </summary>
     interface IProduct
     {
         /// <summary>

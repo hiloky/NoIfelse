@@ -15,6 +15,7 @@ namespace ConsoleHzk
             //输入 Apple 后，自动执行 Apple 类中的FruitsSay方法
             var zifu = Console.ReadLine().ToString();
 
+            
             ProductFactory productFactory = new ProductFactory();
             productFactory.play(Utls.ToEnum<ProductEnum>(zifu));
 
